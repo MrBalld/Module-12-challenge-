@@ -1,4 +1,5 @@
 function Footer() {
+    return (
     <footer>
         <p>
             <a href="https://github.com/MrBalld" className="link-underline-primary">My GitHub</a>
@@ -6,5 +7,6 @@ function Footer() {
             <a href='#' className="link-underline-primary">Third party place</a>
         </p>
     </footer>
+    );
 }
 export default Footer;

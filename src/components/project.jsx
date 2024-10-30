@@ -6,6 +6,7 @@ const cardStyle = {
   };
 
 export default function Project(props) {
+    return (
     <div className="card" style={cardStyle}>
         <h2>{props.name}</h2>
         <a href={props.repoLink}>
@@ -13,5 +14,5 @@ export default function Project(props) {
         </a>
         <a href={props.deployLink}>Link to deployed aplication</a>
     </div>
-
+    );
 }
